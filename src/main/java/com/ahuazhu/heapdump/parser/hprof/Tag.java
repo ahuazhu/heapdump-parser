@@ -45,4 +45,8 @@ public interface Tag {
         byte HPROF_GC_INSTANCE_DUMP        = 0x21;
         byte HPROF_GC_OBJ_ARRAY_DUMP       = 0x22;
         byte HPROF_GC_PRIM_ARRAY_DUMP      = 0x23;
+
+        static Tag of(byte tagByte) {
+                return null;
+        }
 }
